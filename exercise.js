@@ -3,7 +3,7 @@
    We want a multi-part message to have this added to each message:
    " - Part 1 of 2"
 */
-
+//Test test for GitHub
 //fix it
 const sendSmsMessage = function sendSmsMessage (text, to, from) {
   (text.length > 160) ? splitMessage(text) : deliverMessageViaCarrier(text, to, from);
